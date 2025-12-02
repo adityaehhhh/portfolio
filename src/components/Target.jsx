@@ -5,9 +5,9 @@ import gsap from 'gsap';
 
 const Target = (props) => {
   const targetRef = useRef();
-  const { scene } = useGLTF(
-    'https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/target-stand/model.gltf',
-  );
+
+  // FIXED: load your local file instead of broken URL
+  const { scene } = useGLTF('/models/hacker-room.glb');
 
   useGSAP(() => {
     gsap.to(targetRef.current.position, {
@@ -26,3 +26,5 @@ const Target = (props) => {
 };
 
 export default Target;
+
+useGLTF.preload('/models/hacker-room.glb');
