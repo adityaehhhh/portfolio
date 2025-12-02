@@ -54,23 +54,88 @@ export const techStack = [
     logo: '/assets/flask.svg',
   },
 
+  {
+    id : 8,
+    name : 'Next.js',
+    logo : '/assets/next.png',
+  },
+  
+  {
+    id : 9,
+    name : 'PostgreSQL',
+    logo : '/assets/pgadmin.png',
+  },
 
   {
-    id: 8,
+    id : 10,
+    name : 'FireBase',
+    logo : '/assets/fire.png',
+  },
+
+  {
+    id: 10,
     name: 'Python',
     logo: '/assets/python.svg',
   },
 
   {
-    id: 9,
+    id: 11,
     name: 'C & C++',
     logo: '/assets/c++.svg',
+  },
+  {
+    id: 12,
+    name: 'Java',
+    logo: '/assets/java.png',
   },
 
 ];
 
 
 export const myProjects = [
+  {
+    title: 'Neuro Bloom',
+    desc: 'AI-Powered Learning Disability Detection Companion',
+    subdesc:
+      'A Collection of four full-stack, gamified applications built using Next.js, Node.js, and Machine Learning / GenAI, crafted to screen learning disabilities in children through interactive, theme-based games and intelligent analysis.',
+    href: 'https://github.com/adityaehhhh/Neuro_Bloom',
+    texture: '/textures/project/project6.mp4',
+    logo: '/assets/project-logo3.png',
+    logoStyle: {
+      backgroundColor: '#1C1A43',
+      border: '0.2px solid #252262',
+      boxShadow: '0px 0px 60px 0px #635BFF4D',
+    },
+    spotlight: '/assets/spotlight5.png',
+    tags: [
+      {
+        id: 1,
+        name: 'Next.js',
+        path: '/assets/next.png',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'Three.js',
+        path: '/assets/three.png',
+      },
+      {
+        id: 4,
+        name: 'Python',
+        path: '/assets/python.svg',
+      },
+      {
+        id: 5,
+        name: 'PostGreSQL',
+        path : '/assets/pgadmin.png',
+
+      }
+    ],
+  },
   {
     title: 'Anveshka - Android Data Extractor',
     desc: 'Forensic Tool for Android Extration, Cracking and Data Managing',
